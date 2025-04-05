@@ -2,9 +2,9 @@ import streamlit as st
 from gem_ut import inter_ques, inter_ans
 
 st.set_page_config(page_title="IntelecView", layout="centered")
-st.title("🤖 AI Interview Question Generator & Evaluator")
+st.title("🤖 IntelecView AI powered Interview Question Generator & Evaluator")
 
-st.markdown("Prepare for your interviews using Google Gemini-powered AI!")
+st.markdown("Prepare for your interviews using AI!")
 
 category = st.selectbox("Select Interview Category", ["Data Structures", "System Design", "HR"])
 difficulty = st.radio("Select Difficulty", ["Easy", "Medium", "Hard"])
