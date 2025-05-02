@@ -6,7 +6,7 @@ st.title("🤖 IntelecView AI powered Interview Question Generator & Evaluator")
 
 st.markdown("Prepare for your interviews using AI!")
 
-category = st.selectbox("Select Interview Category", ["Data Structures", "System Design", "HR","UPSC"])
+category = st.selectbox("Select Interview Category", ["Data Structures", "System Design","Marketing","Sales","DBMS", "HR","UPSC"])
 difficulty = st.radio("Select Difficulty", ["Easy", "Medium", "Hard"])
 
 if st.button("🎯 Generate Question"):
