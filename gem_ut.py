@@ -7,7 +7,7 @@ from functools import lru_cache
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 
 def safe_generate(prompt, retries=3, delay=3):
