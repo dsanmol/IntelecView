@@ -2,11 +2,11 @@ import streamlit as st
 from gem_ut import inter_ques, inter_ans
 
 st.set_page_config(page_title="IntelecView", layout="centered")
-st.title("🤖 IntelecView AI powered Interview Question Generator & Evaluator")
+st.title("🤖 AI Interview Question Generator & Evaluator")
 
 st.markdown("Prepare for your interviews using AI!")
 
-category = st.selectbox("Select Interview Category", ["Data Structures", "System Design","Marketing","Sales","DBMS", "HR","UPSC"])
+category = st.selectbox("Select Interview Category", ["Data Structures", "System Design", "HR","DBMS","Sales","Marketing"])
 difficulty = st.radio("Select Difficulty", ["Easy", "Medium", "Hard"])
 
 if st.button("🎯 Generate Question"):
